@@ -27,7 +27,7 @@
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "madarafilesharingbot"
+      "value": "Database"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
@@ -35,7 +35,7 @@
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1002753775540"
+      "value": "databasefilesharing"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
