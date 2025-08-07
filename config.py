@@ -37,7 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "Hi {mention}, This bot provides Anime Episodes.\n\nIf you want any other anime then message here 👉 @BorutoTamil")
+START_MSG = os.environ.get("START_MESSAGE", "Hi {mention}, This bot provides Anime Episodes.\n\nIf you want any other anime then message here 👉 @SunsetOfMe")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hey {mention}, Please join our <a href='https://t.me/NarutoShippudenTamil'>channel</a> and try again 👇👇👇")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hey {mention}, Please join our <a href='https://t.me/Cursed_Intelligence'>channel</a> and try again 👇👇👇")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -63,7 +63,7 @@ AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has bee
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "Hi, I'm alive and ready to store and share files.\n\n<b>⏱ UPTIME : </b>{uptime}"
-USER_REPLY_TEXT = "If you have any problems in the episodes or need any other animes inform it in our group @BorutoTamil"
+USER_REPLY_TEXT = "If you have any problems in the episodes or need any other animes inform it in our group @SunsetOfMe"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
